@@ -1,0 +1,12 @@
+.\objects\time_delays.o: Time_Delays.c
+.\objects\time_delays.o: .\Low_Layer_Library\stm32f4xx_ll_rcc.h
+.\objects\time_delays.o: .\System_Files\stm32f4xx.h
+.\objects\time_delays.o: .\System_Files\stm32f401xe.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\objects\time_delays.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
+.\objects\time_delays.o: .\System_Files\system_stm32f4xx.h
+.\objects\time_delays.o: Time_Delays.h
