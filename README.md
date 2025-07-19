@@ -29,7 +29,7 @@ The code is a comprehensive application for interfacing with a microcontroller-b
 
 1. Clone the repository to your local machine.
 
-2. Navigate to the task directory.
+2. Navigate to the Starter_project directory and copy A2_data.c.
 
 3. Set target and toolchain:
 
@@ -41,9 +41,10 @@ The code is a comprehensive application for interfacing with a microcontroller-b
 4. Complile
 ```bash
 >> mbed compile -f
+
 ```
 
-5. Drag and drop the .bin file (of that specific task) to the board's storage to deploy and flash
+5. Drag and drop the .bin file (of that specific task) to the board's drive to deploy and flash
 
 ## Usage
 
@@ -59,6 +60,6 @@ packet.length: total packet payload length.
 
 ## Dependencies
 
-- Mbed CLI with STM32 LL support
-- CMSIS libraries for I2C, CRC, SPI, GPIO, Timer/ SysTick
+- Mbed CLI 1
 - STM32 Nucleo board + Mbed Application Shield with temp sensor, LCD, EEPROM, joystick + USB cable
+- Toolchain GCC_ARM
