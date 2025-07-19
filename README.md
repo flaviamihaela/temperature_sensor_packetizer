@@ -34,6 +34,7 @@ The code is a comprehensive application for interfacing with a microcontroller-b
 3. Set target and toolchain:
 
 ```bash
+>> mbed new .
 >> mbed target NUCLEO_F401RE
 >> mbed toolchain GCC_ARM
 ```
@@ -60,6 +61,5 @@ packet.length: total packet payload length.
 
 ## Dependencies
 
-- Mbed CLI 1
-- STM32 Nucleo board + Mbed Application Shield with temp sensor, LCD, EEPROM, joystick + USB cable
-- Toolchain GCC_ARM
+- Mbed OS, Mbed CLI 1, Toolchain GCC_ARM
+- STM32 Nucleo board + Mbed Application Shield + USB cable
